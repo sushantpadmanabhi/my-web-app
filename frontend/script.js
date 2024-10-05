@@ -3,7 +3,7 @@ document.getElementById('dataForm').addEventListener('submit', async function (e
 
     const name = document.getElementById('name').value;
 
-    const response = await fetch('http://<BACKEND_SERVER_IP>:3000/data', {
+    const response = await fetch('http://<20.244.37.108>:3000/data', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
